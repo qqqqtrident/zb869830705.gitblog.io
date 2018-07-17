@@ -1,0 +1,64 @@
+# Basic
+title: Technical.io 
+subtitle: Thoughts, stories and ideas.
+welcome_message: 嗨，你好！欢迎访问我的个人博客. 我是一名移动软件开发者，目前就职于 <a href="https://www.talkingdata.com/" target="_blank">TalkingData</a>。
+description: 始于足下，志行千里；持之于恒，使命必达。 
+creator: <a href="https://robinchao.github.io/">@Robin</a>
+
+url: "https://robinchao.github.io"
+
+permalink: /:year/:month/:title/ 
+
+# Format
+highlighter: rouge #plain 
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: slate
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: 归档, description: Blog Categories, url: '/archive/'} 
+    - {title: 项目, description: My Projects, url: '/projects/'}
+    - {title: 关于, description: About Me, url: '/about/index.html'}
+
+# Pagination
+gems: [jekyll-paginate] 
+
+
+paginate: 10
+paginate_path: "page/:num/"
+
+jekyll-archives:
+  enabled: []
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+
+
+# Comment
+comment:
+    disqus: technicalio
+    # duoshuo: robin 
+    
+# Social
+social:
+    weibo: Robin0Chao
+    github: RobinChao
+    twitter: zh_robin
+    # gplus: 107108267983477358170
+    mail: robinchao2017@gmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
